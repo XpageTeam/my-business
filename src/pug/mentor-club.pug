@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+html(lang="ru")
+	head
+		meta(charset="utf-8")
+		title Клуб "Наставник"
+		include inc/head.pug
+		include inc/css.pug
+	body.inner.loading
+		include inc/header.pug
+		main#content
+			.mentor
+				.wrapper
+					.mentor__content
+						.mentor__content-text
+							h1 Клуб «Наставник»
+							p Цель клуба: помочь начинающим и действующим предпринимателям Камчатского края в реализации бизнес-проектов, снижении их рисков, раскрытии предпринимательского потенциала и получении новых бизнес-компетенций.
+							p Наставник – это не тот человек, который работает вместо руководителя. Это тот, кто за счёт опыта и собственных компетенций помогает ему увеличить прибыльность организации и модернизировать бизнес-процессы.
+							a.btn(href="#") Оставить заявку
+						.mentor__content-img
+							img(src="./img/photos/mentor-img.png" alt="")
+					.mentor__ourmentors
+						.mentor__ourmentors-title Наши наставники
+						.mentor__ourmentors-subtitle Действующие предприниматели Камчатского края
+							.mentor__ourmentors-nav
+									.swiper-arrow.swiper-button-prev
+									.swiper-arrow.swiper-button-next
+						.mentor-slider
+							.swiper-container
+									.swiper-wrapper
+										.mentor-slider__item.swiper-slide
+											.mentor-slider__img
+												img(src="./img/mentors/mentor-1.png" alt="Шамоян Рашид Фероевич")
+											.mentor-slider__text
+												.mentor-slider__text-name Шамоян <br> Рашид Фероевич
+												.mentor-slider__text-post Группа компаний «Шамса»
+
+										.mentor-slider__item.swiper-slide
+											.mentor-slider__img
+												img(src="./img/mentors/mentor-2.png" alt="Рубахин Владимир Ильич")
+											.mentor-slider__text
+												.mentor-slider__text-name Рубахин <br> Владимир Ильич
+												.mentor-slider__text-post ООО «Агротек»
+
+										.mentor-slider__item.swiper-slide
+											.mentor-slider__img
+												img(src="./img/mentors/mentor-3.png" alt="Самойленко Алена Александровна")
+											.mentor-slider__text
+												.mentor-slider__text-name Самойленко <br> Алена Александровна
+												.mentor-slider__text-post Музей «Вулканариум»
+
+										.mentor-slider__item.swiper-slide
+											.mentor-slider__img
+												img(src="./img/mentors/mentor-4.png" alt="Самойленко Алена Александровна")
+											.mentor-slider__text
+												.mentor-slider__text-name Самойленко <br> Алена Александровна
+												.mentor-slider__text-post Музей «Вулканариум»
+
+										.mentor-slider__item.swiper-slide
+											.mentor-slider__img
+												img(src="./img/mentors/mentor-1.png" alt="Шамоян Рашид Фероевич")
+											.mentor-slider__text
+												.mentor-slider__text-name Шамоян <br> Рашид Фероевич
+												.mentor-slider__text-post Группа компаний «Шамса»
+
+										.mentor-slider__item.swiper-slide
+											.mentor-slider__img
+												img(src="./img/mentors/mentor-3.png" alt="Самойленко Алена Александровна")
+											.mentor-slider__text
+												.mentor-slider__text-name Самойленко <br> Алена Александровна
+												.mentor-slider__text-post Музей «Вулканариум»
+
+										.mentor-slider__item.swiper-slide
+											.mentor-slider__img
+												img(src="./img/mentors/mentor-4.png" alt="Самойленко Алена Александровна")
+											.mentor-slider__text
+												.mentor-slider__text-name Самойленко <br> Алена Александровна
+												.mentor-slider__text-post Музей «Вулканариум»
+
+										.mentor-slider__item.swiper-slide
+											.mentor-slider__img
+												img(src="./img/mentors/mentor-1.png" alt="Шамоян Рашид Фероевич")
+											.mentor-slider__text
+												.mentor-slider__text-name Шамоян <br> Рашид Фероевич
+												.mentor-slider__text-post Группа компаний «Шамса»
+					.mentor__principles
+						.mentor__principles-title Принципы наставничества
+						.mp-principles
+							.mp-principles__item
+								.mp-principles__img
+									img(src="./img/mentors/principles-1.svg" alt="")
+								.mp-principles__title Индивидуальность
+								.mp-principles__desc Наставник с подопечным общается один на один, в индивидуальном порядке
+							.mp-principles__item
+								.mp-principles__img
+									img(src="./img/mentors/principles-2.svg" alt="")
+								.mp-principles__title Конфиденциальность
+								.mp-principles__desc Все, что обсуждается в паре, остается строго между ними, распространение информации происходит с согласия сторон
+							.mp-principles__item
+								.mp-principles__img
+									img(src="./img/mentors/principles-3.svg" alt="")
+								.mp-principles__title Открытость
+								.mp-principles__desc Наставник открыто рассказывает не только о своих успехах, но и о неудачах в построении и развитии бизнеса
+				.mentor__functions
+					.wrapper
+						.mentor__functions-title Функции наставников
+						.mf-functions
+							.mf-functions__item
+								.mf-functions__img
+									img(src="./img/mentors/functions-1.svg" alt="")
+								.mf-functions__desc Высказывает независимое мнение о бизнес-проекте
+							.mf-functions__item
+								.mf-functions__img
+									img(src="./img/mentors/functions-2.svg" alt="")
+								.mf-functions__desc Выслушивает на условиях конфиденциальности вопросы от предпринимателей касательно бизнес-проекта
+							.mf-functions__item
+								.mf-functions__img
+									img(src="./img/mentors/functions-3.svg" alt="")
+								.mf-functions__desc Делится с предпринимателем собственным опытом успехов и неудач
+							.mf-functions__item
+								.mf-functions__img
+									img(src="./img/mentors/functions-4.svg" alt="")
+								.mf-functions__desc Помогает предпринимателю расставить приоритеты в бизнесе, поставить правильные цели и определить возможность их достичь
+							.mf-functions__item
+								.mf-functions__img
+									img(src="./img/mentors/functions-5.svg" alt="")
+								.mf-functions__desc Предоставляет предпринимателю честную и конструктивную обратную связь
+							.mf-functions__item
+								.mf-functions__img
+									img(src="./img/mentors/functions-6.svg" alt="")
+								.mf-functions__desc Показывает возможные пути или задает те вопросы, которые помогают сделать выбор между возможными вариантами
+				.mentor__notincluded
+					.wrapper
+						.mentor__notincluded-title В функции Наставника не входит
+						.mn-notincluded
+							.mn-notincluded__item
+								.mn-notincluded__desc Финансирование деятельности наставляемого
+							.mn-notincluded__item
+								.mn-notincluded__desc Принятие решения за наставляемого
+							.mn-notincluded__item
+								.mn-notincluded__desc Настаивание на исполнении своих рекомендаций
+							.mn-notincluded__item
+								.mn-notincluded__desc Направление ресурсов своего бизнеса на решение проблем бизнеса наставляемого
+				.mentor__request
+					.wrapper
+						.mentor__request-text Заинтересовало? Оставьте заявку! 
+						a.mentor__request-btn.btn.btn--white(href="#") Оставить заявку
+
+
+
+
+
+
+
+
+
+
+		include inc/footer.pug
+		include inc/scripts.pug

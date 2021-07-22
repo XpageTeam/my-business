@@ -1,0 +1,248 @@
+.mentor
+	margin-top: 70px
+	&__content
+		display: flex 
+		column-gap: 21px
+		margin-bottom: 100px
+		@media screen and (max-width: 767px)
+			flex-direction: column-reverse
+
+		&-text
+			max-width: 610px
+			padding-top: 48px
+			h1
+				font-weight: 600
+				font-size: 48px
+				line-height: 56px
+				margin-bottom: 40px
+				@media screen and (max-width: 767px)
+					font-size: 36px
+					line-height: normal
+					margin-bottom: 24px
+
+				@media screen and (max-width: 400px)
+					font-size: 24px
+					line-height: normal
+			p
+				margin-bottom: 22px
+				font-size: 18px
+				line-height: 30px
+				@media screen and (max-width: 767px)
+					font-size: 16px
+					line-height: 25px
+
+		&-img
+			flex-shrink: 0
+			@media screen and (max-width: 1000px)
+				max-width: 50%
+			@media screen and (max-width: 767px)
+				max-width: 100%
+	&__ourmentors
+		margin-bottom: 100px
+		&-title
+			font-weight: 600
+			font-size: 22px
+			line-height: 30px
+			margin-bottom: 12px
+		&-subtitle
+			font-size: 16px
+			line-height: 30px
+			margin-bottom: 32px
+			display: flex
+			justify-content: space-between
+		&-nav
+			display: flex
+			column-gap: 20px
+			.swiper-button-next, .swiper-button-prev
+				top: 0 !important
+				&.swiper-button-disabled
+					opacity: 1
+					background: #F3F6F9
+					&::before
+						border-color: #000
+			.swiper-arrow
+				background: #e8452e
+				&::before
+					top: calc(50% - 3px)
+					left: calc(50% - 3px)
+					width: 6px
+					height: 6px
+					border-color: #fff
+
+
+		.mentor-slider
+			display: flex
+			column-gap: 32px
+			&__item
+				background: #F3F6F9
+				padding: 22px
+				display: flex
+				align-items: center
+				column-gap: 25px
+				width: 445px !important
+				@media screen and (max-width: 767px)
+					width: 100% !important
+					flex-direction: column
+			&__img
+				size: 126px
+				border-radius: 50%
+				img
+					size: 126px
+					border-radius: 50%
+			&__text
+				width: 250px
+				&-name
+					font-weight: 600
+					font-size: 18px
+					line-height: 26px
+				&-post
+					font-size: 14px
+					line-height: 30px
+			.swiper-container
+				width: 100%
+				overflow: visible
+				padding-right: 10%
+				@media screen and (max-width: 767px)
+					overflow: hidden
+					padding-right: 0
+			.swiper-wrapper
+				transform: translate3d(0px, 0, 0)
+	&__principles
+		margin-bottom: 60px
+		&-title
+			font-weight: 600
+			font-size: 22px
+			line-height: 30px
+			margin-bottom: 32px
+		.mp-principles
+			display: grid
+			column-gap: 32px
+			row-gap: 32px
+			grid-template-columns: 1fr 1fr 1fr
+			@media screen and (max-width: 1000px)
+				grid-template-columns: 1fr 1fr
+			@media screen and (max-width: 767px)
+				grid-template-columns: 1fr
+			&__item
+				border: 1px solid #F3F6F9
+				box-sizing: border-box
+				border-radius: 5px
+				padding: 40px 30px 30px
+				@media screen and (max-width: 767px)
+					display: flex
+					flex-direction: column
+					align-items: center
+					padding: 32px 16px
+			&__img
+				margin-bottom: 36px
+			&__title
+				font-weight: bold
+				font-size: 18px
+				line-height: 26px
+				margin-bottom: 15px
+			&__desc
+				font-weight: normal
+				font-size: 18px
+				line-height: 26px
+	&__functions
+		background: #F3F6F9
+		padding: 80px 0
+		margin-bottom: 80px
+		&-title
+			font-weight: 600
+			font-size: 22px
+			line-height: 30px
+			margin-bottom: 45px
+		.mf-functions
+			display: grid
+			grid-template-columns: repeat(3, 1fr)
+			column-gap: 32px
+			row-gap: 32px
+			@media screen and (max-width: 1000px)
+				grid-template-columns: repeat(2, 1fr)
+			@media screen and (max-width: 767px)
+				grid-template-columns: 1fr
+			&__item
+				background: #fff
+				padding: 40px 32px
+				@media screen and (max-width: 767px)
+					display: flex
+					flex-direction: column
+					align-items: center
+					padding: 32px 16px
+			&__img
+				margin-bottom: 32px
+			&__desc
+				font-size: 18px
+				line-height: 28px
+	&__notincluded
+		margin-bottom: 100px
+		&-title
+			font-weight: 600
+			font-size: 22px
+			line-height: 30px
+			margin-bottom: 32px
+		.mn-notincluded
+			display: grid
+			grid-template-columns: repeat(2, 1fr)
+			column-gap: 32px
+			row-gap: 32px
+			@media screen and (max-width: 1000px)
+				grid-template-columns: repeat(1, 1fr)
+			&__item
+				background: #F3F6F9
+				border-radius: 5px
+				display: flex
+				align-items: center
+				height: 135px
+				padding: 0 32px
+				@media screen and (max-width: 767px)
+					height: auto
+					padding: 32px 16px
+			&__desc
+				font-size: 22px
+				line-height: 28px
+				display: flex
+				align-items: center
+				@media screen and (max-width: 767px)
+					flex-direction: column
+					width: 100%
+					text-align: center
+					font-size: 18px
+					line-height: 28px
+				&::before
+					content: ''
+					width: 39px
+					height: 72px
+					display: block
+					margin-right: 32px
+					flex-shrink: 0
+					background: url("data:image/svg+xml,%0A%3Csvg width='39' height='72' viewBox='0 0 39 72' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.8644 60.0637L16.3684 54.5501L10.8719 60.0637L16.3673 71.5924L21.8644 60.0637Z' fill='%23E04E39'/%3E%3Cpath d='M16.368 22.8359C14.2589 22.8359 12.5488 24.5537 12.5488 26.6724C12.5488 28.7911 14.2589 30.5089 16.368 30.5089C18.4771 30.5089 20.1872 28.7911 20.1872 26.6724C20.1872 24.5537 18.4771 22.8359 16.368 22.8359Z' fill='%23E04E39'/%3E%3Cpath d='M16.3679 5.61829C15.2045 6.21675 0 14.2878 0 27.1839C0 38.2149 8.94936 54.9452 8.94936 54.9452L16.3679 47.4795L23.787 54.9452C23.787 54.9452 32.7363 38.2149 32.7363 27.1839C32.7363 14.2878 17.5318 6.21675 16.3679 5.61829ZM21.2664 42.4426L16.3679 37.5134L11.4699 42.4426C11.2197 41.7587 7.9382 32.8356 7.9382 27.014C7.9382 19.1604 15.7789 14.7605 16.3679 14.4384C16.9574 14.7605 24.7981 19.1604 24.7981 27.014C24.7981 32.8356 21.5167 41.7587 21.2664 42.4426Z' fill='%23E04E39'/%3E%3Cpath d='M32.735 -2.39436e-05L27.1411 5.61932L32.735 11.2387L38.329 5.61932L32.735 -2.39436e-05Z' fill='%23E04E39'/%3E%3C/svg%3E%0A") no-repeat center
+					@media screen and (max-width: 767px)
+						margin-right: 0
+						margin-bottom: 16px
+	&__request
+		background: #E04E39
+		height: 200px
+		margin-bottom: -85px
+		.wrapper
+			display: flex
+			align-items: center
+			justify-content: space-between
+			height: inherit
+			@media screen and (max-width: 767px)
+				flex-direction: column
+				justify-content: center
+				text-align: center
+		&-text
+			font-weight: 600
+			font-size: 48px
+			line-height: 56px
+			color: #fff
+			@media screen and (max-width: 767px)
+				font-size: 36px
+				line-height: normal
+				margin-bottom: 24px
+			@media screen and (max-width: 400px)
+				font-size: 24px
+				line-height: normal
