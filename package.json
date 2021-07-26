@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "default": "gulp default",
     "finish:him": "cross-env NODE_ENV=production node_modules/.bin/webpack --config webpack.config.js --progress && gulp finish:him",
     "deploy": "cross-env NODE_ENV=production node_modules/.bin/webpack --config webpack.config.js --progress && gulp deploy",
     "webpack": "node_modules/.bin/webpack --config webpack.config.js"
