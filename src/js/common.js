@@ -192,26 +192,6 @@ document.addEventListener("DOMContentLoaded", e => {
 	      },
 	});
 
-
- // MENTOR SLIDER
-     const reviewsSlider = new Swiper(".mentor-slider .swiper-container", {
-        slidesPerView: 4,
-        slidesPerGroup: 1,
-        spaceBetween: 32,
-        breakpoints: {
-
-            767: {
-              slidesPerView: 1,
-            },
-        },
-        navigation: {
-	        nextEl: '.mentor__ourmentors-nav .swiper-button-next',
-	        prevEl: '.mentor__ourmentors-nav .swiper-button-prev',
-	      },
-    })
-
-
-
 	let swiperStandartTextSlider = new Swiper(".standart__text-slider  .swiper-container", {
 
 		slidesPerView: 4,
@@ -232,9 +212,6 @@ document.addEventListener("DOMContentLoaded", e => {
 	        prevEl: '.standart__text-slider .swiper-button-prev',
 	      },
 	});
-
-
-
 
 	$('.lk-events__item-btn').click(function(){
 		var $this = $(this);

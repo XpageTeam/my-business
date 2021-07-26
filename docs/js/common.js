@@ -10758,23 +10758,6 @@ document.addEventListener("DOMContentLoaded", function (e) {
 		}
 	});
 
-	// MENTOR SLIDER
-	var reviewsSlider = new _swiper2.default(".mentor-slider .swiper-container", {
-		slidesPerView: 4,
-		slidesPerGroup: 1,
-		spaceBetween: 32,
-		breakpoints: {
-
-			767: {
-				slidesPerView: 1
-			}
-		},
-		navigation: {
-			nextEl: '.mentor__ourmentors-nav .swiper-button-next',
-			prevEl: '.mentor__ourmentors-nav .swiper-button-prev'
-		}
-	});
-
 	var swiperStandartTextSlider = new _swiper2.default(".standart__text-slider  .swiper-container", {
 
 		slidesPerView: 4,
