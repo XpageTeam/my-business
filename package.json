@@ -72,7 +72,7 @@
     "is_js": "^0.9.0",
     "jquery": "^3.3.1",
     "js-cookie": "^2.2.0",
-    "swiper": "^4.4.6",
+    "swiper": "^6.5.1",
     "vue": "^2.6.10",
     "vue-slider-component": "^3.0.43",
     "vuejs-datepicker": "^1.6.2"
